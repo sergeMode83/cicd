@@ -1,0 +1,22 @@
+{
+  "name": "cicd",
+  "version": "1.0.0",
+  "main": "script.js",
+  "keywords": [],
+  "author": "serge",
+  "license": "ISC",
+  "description": "",
+  "scripts": {
+    "lint:js": "eslint .",
+    "lint:css": "stylelint '**/*.css'",
+    "lint:html": "htmlhint ."
+  },
+
+  "devDependencies": {
+    "eslint": "^9.30.1",
+    "htmlhint": "^1.6.3",
+    "stylelint": "^16.21.1",
+    "stylelint-config-standard": "^38.0.0"
+  }
+
+}
