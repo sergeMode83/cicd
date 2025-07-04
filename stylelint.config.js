@@ -4,7 +4,7 @@ module.exports = {
     "block-no-empty": true,
     "color-no-invalid-hex": true,
     "declaration-block-no-duplicate-properties": true,
-    "no-extra-semicolon": true,
+    "no-extra-semi": true,
     "no-empty-source": true
     
   }
