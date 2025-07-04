@@ -21,7 +21,7 @@ jobs:
       run: npm install
       
     - name: Installer HTMLHint
-      run: npm install htmlhint --save-dev  
+      run: npm install -g htmlhint --save-dev  
 
     - name: Vérifier le HTML
       run: npx htmlhint .
