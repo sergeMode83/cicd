@@ -19,6 +19,9 @@ jobs:
 
     - name: Installer les dépendances
       run: npm install
+      
+    - name: Installer HTMLHint
+      run: npm install htmlhint --save-dev
 
     - name: Vérifier le HTML
       run: htmlhint .
