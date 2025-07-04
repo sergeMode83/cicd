@@ -27,7 +27,7 @@ jobs:
       run: npx htmlhint .
 
     - name: Installer stylelint globalement
-      run: npm install -g stylelint --save-dev 
+      run: npm install -g stylelint 
 
     - name: Vérifier le CSS
       run: npx stylelint "**/*.css"
