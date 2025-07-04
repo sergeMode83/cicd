@@ -24,7 +24,7 @@ jobs:
       run: npm install htmlhint --save-dev 
 
     - name: Vérifier le HTML
-      run: htmlhint .
+      run: npx htmlhint .
 
     - name: Vérifier le CSS
       run: npx stylelint "**/*.css"
