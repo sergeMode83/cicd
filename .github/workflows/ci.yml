@@ -21,7 +21,7 @@ jobs:
       run: npm install
 
     - name: Vérifier le HTML
-      run: npx htmlhint .
+       run: ./node_modules/.bin/htmlhint  .
 
     - name: Vérifier le CSS
       run: npx stylelint "**/*.css"
